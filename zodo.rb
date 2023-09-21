@@ -5,12 +5,12 @@
 class Zodo < Formula
   desc ""
   homepage "https://github.com/longmenzhitong/zodo"
-  version "0.0.5"
+  version "1.0.0"
   depends_on :macos
 
   on_macos do
-    url "https://github.com/longmenzhitong/zodo/releases/download/v0.0.5/zodo_0.0.5_darwin_all.tar.gz"
-    sha256 "beafb2393aacd3746d3c17379f1693397e30e3933587114ca0440db16c125e7d"
+    url "https://github.com/longmenzhitong/zodo/releases/download/v1.0.0/zodo_1.0.0_darwin_all.tar.gz"
+    sha256 "1326a276373636a6bfcf9d3f284f078cbd4c81b72a0949a3ade3ae0eba396816"
 
     def install
       bin.install "zodo"
